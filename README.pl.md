@@ -55,15 +55,6 @@ Do zgłoszenia błędu wizualnego dołącz wersję Heroic, wariant motywu i zrzu
 - `ASSET-AUDIT.md` — lista pochodzenia osadzonych grafik;
 - `scripts/validate.js` — automatyczne testy strukturalne.
 
-## Rozwój
-
-```bash
-npm ci
-npm test
-```
-
-Kod celowo nie jest minifikowany. Nie należy publikować automatycznie skompresowanego wariantu `DISTRIBUTION`: przepisanie osadzonych grafik albo kolejności kaskady może zmienić wygląd. Przed usuwaniem powtórzonych selektorów lub zmiennych przeczytaj [opis architektury](docs/ARCHITECTURE.md).
-
 ## Bezpieczeństwo
 
 Własny CSS działa wewnątrz interfejsu Heroic i należy traktować go jak kod. Dostarczone arkusze nie zawierają `@import` ani zewnętrznych adresów HTTP(S); grafiki są osadzone jako data URI. Przed użyciem cudzych forków należy przejrzeć zmiany.
