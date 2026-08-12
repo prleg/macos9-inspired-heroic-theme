@@ -1,0 +1,17 @@
+{
+  "name": "macos9-inspired-heroic-theme",
+  "private": true,
+  "description": "macOS 9 and Platinum-inspired custom theme for Heroic Games Launcher 2.22.x",
+  "scripts": {
+    "format:check": "prettier --check .",
+    "validate": "node scripts/validate.js",
+    "test": "npm run format:check && npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "postcss": "8.5.6",
+    "prettier": "3.6.2"
+  }
+}
