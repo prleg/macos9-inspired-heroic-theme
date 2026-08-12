@@ -55,15 +55,6 @@ Please include the Heroic version, theme variant and a screenshot when reporting
 - `ASSET-AUDIT.md` — provenance checklist for embedded artwork;
 - `scripts/validate.js` — structural regression checks.
 
-## Development
-
-```bash
-npm ci
-npm test
-```
-
-The source is deliberately not minified. Do not publish an automatically minified `DISTRIBUTION` build: rewriting embedded assets or cascade order can change rendering. Read [Architecture](docs/ARCHITECTURE.md) before deduplicating selectors or custom properties.
-
 ## Security
 
 Custom CSS executes inside Heroic's interface and should be treated as code. The supplied files contain no `@import` rules and no external HTTP(S) asset URLs; icons are embedded as data URIs. Review changes before installing third-party forks.
