@@ -26,7 +26,7 @@ Powyższe obrazy są niezmodyfikowanymi zrzutami rzeczywistego ekranu Biblioteki
 
 ## Instalacja
 
-1. Pobierz [`macos9-inspired-light.css`](themes/macos9-inspired-light.css) albo [`macos9-inspired-dark.css`](themes/macos9-inspired-dark.css).
+1. Otwórz [najnowsze wydanie](https://github.com/prleg/macos9-inspired-heroic-theme/releases/latest) i pobierz `macos9-inspired-light.css` albo `macos9-inspired-dark.css`.
 2. Umieść plik CSS w katalogu przeznaczonym na własne motywy Heroic.
 3. Otwórz **Heroic → Ustawienia → Ogólne**. W części układów 2.22.x te same opcje mogą być również dostępne w **Ułatwieniach dostępu**.
 4. Wskaż ten katalog w polu **Ścieżka własnych motywów**.
