@@ -26,7 +26,7 @@ The images above are unmodified screenshots of the actual Heroic Library running
 
 ## Installation
 
-1. Download [`macos9-inspired-light.css`](themes/macos9-inspired-light.css) or [`macos9-inspired-dark.css`]([themes/macos9-inspired-dark.css](/prleg/macos9-inspired-heroic-theme/releases/tag/v1.0)).
+1. Download [`macos9-inspired-light.css`](themes/macos9-inspired-light.css) or [`macos9-inspired-dark.css`]([themes/macos9-inspired-dark.css](releases/tag/v1.0)).
 2. Put the CSS file in a directory dedicated to Heroic custom themes.
 3. Open **Heroic → Settings → General**. In some 2.22.x layouts the same controls may also appear under **Accessibility**.
 4. Set **Custom Themes Path** to that directory.
